@@ -8,7 +8,7 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "pm2":"pm2 preview processes.json"
+    "pm2": "pm2 preview processes.json"
   },
   "devDependencies": {},
   "dependencies": {
@@ -25,6 +25,7 @@
     "strapi-plugin-email": "3.3.4",
     "strapi-plugin-upload": "3.3.4",
     "strapi-plugin-users-permissions": "3.3.4",
+    "strapi-provider-email-sendgrid": "^3.4.5",
     "strapi-utils": "3.3.4"
   },
   "author": {
